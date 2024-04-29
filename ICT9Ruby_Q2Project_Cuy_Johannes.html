@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Flex Wrap</title>
+<style type="text/css">
+	body{
+		color: white;
+		font-family: Arial, sans-serif;
+		text-align: center;
+		background-color: black;
+		background-image: url(philippines.jpg);
+	}
+	h1 h2{
+		font-family: Arial, sans-serif;
+		font-size: 20px;
+	}
+	img{
+		width: 200px;
+		height: 200px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.container .item{
+		background-color: slategray;
+		width: 500px;
+		margin: 10px;
+		padding: 10px;
+	}
+	.container{
+		display: flex;
+	}
+	#berb {
+				background-color: black;
+	}
+	#source {
+			color: blue;
+			font-style: italic;
+			background-color: slategrey;
+			font-size: 20px;
+	}
+</style>
+</head>
+<body align="center">
+	<div id="berb">
+<h1>PHOTO GALLERY</h1>
+<h2>The Top 3 Tourist Spots of the Philippines!</h2>
+</div>
+<div class="container">
+	<div class="item">
+		<img src="beach.jpg">
+		<h2>Boracay</h2>
+		<p>This is probably the most popular tourist spot in the philippines, with millions of visitors over the years. This fun beach has sand finer than baby powder, waters as fresh as could be, and fun activities to go on such as parasailing and island hopping.</p>
+	</div>
+	<div class="item">
+		<img src="gremlin.jpg">
+		<h2>Bohol</h2>
+		<p>This Visayan island is known for its overall natural beauty that the Philippines is known for. One of the most famous landscapes is the one and only Chocolate Hills, which in the summer, looks like oversized Choco drops. Not only that, but this island is home to one of the most adorable little nocturnal primates, the Tarsiers!</p>
+	</div>
+	<div class="item">
+		<img src="rice.jpg">
+		<h2>Banaue</h2>
+		<p>The province of Banaue is famous for one thing and one thing only, it's beautifully hand crafted rice terraces. They are a wonder in the world of Agriculture and people go so far as to call it the 8th wonder of the world, so check it out and see for yourself sometime!</p>
+	</div>
+	<div id="source">
+	<br>Sources: https://www.planetware.com/philippines/best-places-to-visit-in-the-philippines-phi-1-13.htm</br>
+	</div>
+</body>
+</html>
